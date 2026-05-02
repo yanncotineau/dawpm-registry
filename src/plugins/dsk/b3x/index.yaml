@@ -1,0 +1,23 @@
+slug: dsk/b3x
+name: DSK B3x
+description: "&#8211; 2 layers, 13 waveforms &#8211; Octave select and
+  micro-detuner &#8211; Effects (Delay, flanger) &#8211; Assignable Automation
+  Capability Download (adsbygoogle = window.adsbygoogle || []).push({});
+  Download DSK B3x (adsbygoogle = window.adsbygoogle || []).push({}); Shar…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-b3x/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-B3x.jpg?resize=300%2C271&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_B3x.zip
+  sha256: f0689bd097768de4e5297ab581ebf186723c396126409c3a54d7702828d78ee9
+  size: 4737624
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

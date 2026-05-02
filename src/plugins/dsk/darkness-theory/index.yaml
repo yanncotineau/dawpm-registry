@@ -1,0 +1,23 @@
+slug: dsk/darkness-theory
+name: DSK Darkness Theory
+description: "&#8211; Ambient textures and pads &#8211; 3 advanced OSC whit 53
+  waveforms &#8211; octave and pan selector &#8211; Amp. envelope and
+  micro-detuner &#8211; 3 HP/LP advanced pole Filter &#8211; 3 LFO whit output
+  routing &#8211; Midi automation &#8211; Velocity response Download…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-darkness-theory/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Darkness-Theory.jpg?resize=300%2C123&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_Darkness_Theory.zip
+  sha256: 752e06b24f55f3986f4e089638c41c1295a0939ebf4dec6996f5d4a569e18c10
+  size: 5385924
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

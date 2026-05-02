@@ -1,45 +1,52 @@
-# dawpm-registry (data)
+# dawpm-registry
 
-Source-of-truth plugin data for [dawpm](https://github.com/dawpm). Each plugin
-is one yaml file at `src/plugins/<namespace>/<name>/index.yaml`. CI validates,
-compiles to JSON, publishes to GitHub Pages, then pings the Vercel deploy hook
-for the [dawpm/registry](https://github.com/dawpm/registry) frontend.
+The plugin data behind [dawpm-registry.yanncotineau.dev](https://dawpm-registry.yanncotineau.dev).
+
+Each plugin is a single yaml file at `src/plugins/<ns>/<name>/index.yaml`. A GitHub Actions workflow validates them, compiles them into a static JSON index under `dist/v1/`, publishes that to GitHub Pages, and pings a Vercel deploy hook so the frontend picks up the changes.
 
 ## Add a plugin
 
-1. Create `src/plugins/<ns>/<name>/index.yaml`. See
-   [`src/plugins/dsk/overture/index.yaml`](src/plugins/dsk/overture/index.yaml)
-   for the canonical example.
-2. Validate locally: `pnpm install && pnpm validate`.
-3. Open a PR. Once merged, the workflow rebuilds and the frontend reflects it.
+1. Create `src/plugins/<ns>/<name>/index.yaml`. See [`src/plugins/dsk/overture/index.yaml`](src/plugins/dsk/overture/index.yaml) for the canonical example.
+2. `pnpm validate` to check it locally.
+3. Open a PR.
 
-## Plugin schema
+The `slug` in the yaml must match the path: `dsk/overture` → `src/plugins/dsk/overture/index.yaml`.
+
+## Schema
 
 ```yaml
 slug: namespace/name          # required, matches the path
 name: Display Name            # required
 description: One sentence.    # required
 author: Vendor                # required
-license: freeware             # required (freeware, mit, proprietary, ...)
+license: freeware             # required
 homepage: https://...         # optional
 image: https://...png         # optional
-tags: [synth, free]           # optional, default []
+tags: [synth, free]           # optional
 download:
-  url: https://...zip         # required, .zip only for now
+  url: https://...zip         # required
   sha256: 64-hex              # required
   size: 12345                 # required, bytes
 install:                      # required, at least one rule
   - format: vst               # vst | vst3 | fst
-    include: ['**/*.dll']     # required, micromatch globs
-    exclude: []               # optional
-    strip: 1                  # optional, default 0; strips N leading path components
+    include: ['**/*.dll']
+    exclude: []
+    strip: 1                  # strip N leading path components, default 0
+```
+
+## Scripts
+
+```sh
+pnpm install
+pnpm validate     # zod-validate every yaml
+pnpm build        # write dist/v1/plugins.json
+pnpm scrape:dsk   # rescrape every free DSK Music VST — see scripts/scrape-dsk.ts
 ```
 
 ## Compiled output
 
-Pushed to `https://yanncotineau.github.io/dawpm-registry/`:
+Published to `https://yanncotineau.github.io/dawpm-registry/v1/plugins.json` and consumed by the frontend.
 
-- `v1/plugins.json` — full index for search.
-- `v1/plugins/<ns>/<name>.json` — single-plugin records.
+## License
 
-The frontend at https://dawpm-registry.vercel.app reads from this.
+The build scripts and yaml templates are MIT. Each plugin's `index.yaml` describes data owned by its respective publisher.

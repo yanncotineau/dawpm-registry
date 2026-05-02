@@ -1,0 +1,23 @@
+slug: dsk/synthopia
+name: DSK Synthopia
+description: "&#8211; 3 layers with 128 sounds featuring bass, synths, keys,
+  pads&#8230; &#8211; Midi channel selector for each layer &#8211; Amp.
+  envelope, detune and panorama control &#8211; 3 advanced filter with ADSR
+  control &#8211; 3 advanced LFO, with route option &#8211; 2 send Fx (C…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-synthopia/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Synthopia.jpg?resize=300%2C217&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_Synthopia.zip
+  sha256: 4467cc57920c601a721b9b8d132ffb40f27793e44c83f9968a763d62d0ea9538
+  size: 36074182
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

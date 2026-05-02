@@ -1,0 +1,23 @@
+slug: dsk/sixsenze
+name: DSK SixSenZe
+description: "&#8211; Multi OSC, 5&#215;3 basic waveforms &#8211; Octave select
+  and micro-detuner &#8211; Amp. envelope &#8211; Multimode Filter &#8211;
+  SuperSAW effect &#8211; Midi automation &#8211; Preset selector Download
+  (adsbygoogle = window.adsbygoogle || []).push({}); Download DSK S…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-sixsenze/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-SixSenZe.jpg?resize=300%2C112&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_SixSenZe.zip
+  sha256: e7b0a545e727924d707434fd78aca36799d26d46bf95f13bc3219558cf47dc79
+  size: 1122603
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

@@ -6,7 +6,8 @@
   "description": "Source-of-truth plugin data for the dawpm registry.",
   "scripts": {
     "build": "tsx scripts/build.ts",
-    "validate": "tsx scripts/build.ts --validate-only"
+    "validate": "tsx scripts/build.ts --validate-only",
+    "scrape:dsk": "tsx scripts/scrape-dsk.ts"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",

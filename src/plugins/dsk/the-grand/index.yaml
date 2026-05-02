@@ -1,0 +1,23 @@
+slug: dsk/the-grand
+name: DSK The Grand
+description: "Grand Piano VST instrument Features: – 4 velocity layers, 4-6
+  samples / note – ADSR envelope control – Reverb fx included – Available for
+  Windows and Mac (32 and 64 bits) Download (adsbygoogle = window.adsbygoogle ||
+  []).push({}); Download DSK The Grand: Windows VST 32 Bits Wi…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-the-grand/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2017/04/DSK-The-Grand.jpg?w=300&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_The_Grand/DSK_The_Grand_-_win64.zip
+  sha256: 19164d9d1214cf37200285fcac22dc48116842998fc3dba819ae162b4c977f51
+  size: 49426341
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

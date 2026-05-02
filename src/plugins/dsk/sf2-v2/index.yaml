@@ -1,0 +1,23 @@
+slug: dsk/sf2-v2
+name: DSK SF2 &#8211; v2
+description: "Free high quality SoundFont player &#8211; Bank and preset
+  selector &#8211; Midi channel selector &#8211; Note control (Bend, Retrigger)
+  &#8211; Amp. envelope &#8211; Multimode Filter &#8211; Advanced LFO with
+  output route &#8211; Midi automation & learn Updates: &#8211; Porta…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-sf2-v2/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-SF2-v2.jpg?resize=300%2C236&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_SF2_v2.zip
+  sha256: 90111d56c4d92a52bbaa425766131aa1e7f9a7828bd0d9ed81f8bd7d58a28099
+  size: 2809266
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

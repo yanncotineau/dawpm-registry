@@ -1,0 +1,23 @@
+slug: dsk/choirz
+name: DSK ChoirZ
+description: "&#8211; 3 Layers with 32 Choir & Pad sounds &#8211; ADSR,
+  Finetuning and Pan control &#8211; 3 Advanced Filters &#8211; 3 LFO routing to
+  Cut, Pan, Level and Pitch &#8211; Chorus effect &#8211; Reverb Effect &#8211;
+  Velocity response &#8211; Midi automation Download (adsbygoogl…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-choirz/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-ChoirZ.jpg?resize=300%2C300&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_ChoirZ.zip
+  sha256: b4fb6ce0217a2fb87e198494df736bb0551c9e75bdf0b5d053f5d9ac3950e255
+  size: 24035733
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

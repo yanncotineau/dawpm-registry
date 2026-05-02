@@ -1,0 +1,23 @@
+slug: dsk/synthdrums
+name: DSK SynthDrums
+description: "&#8211; 12 Patch drum Synth &#8211; Easy assign sounds to keyboard
+  &#8211; Deep control over sound design &#8211; Selectable output &#8211; Midi
+  automation &#8211; Filter, Distortion, EQ and a lot of ways to create your
+  drums sound! * Based on Smackbox project , developed by S…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-synthdrums/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-SynthDrums.jpg?resize=300%2C160&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_SynthDrums.zip
+  sha256: 16cf95e2da0d89aa1ea1099476cec3579e19ab5d3247486ea2577c3d152445da
+  size: 1270306
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

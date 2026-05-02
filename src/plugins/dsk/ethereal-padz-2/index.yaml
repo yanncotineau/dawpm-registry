@@ -1,0 +1,23 @@
+slug: dsk/ethereal-padz-2
+name: DSK Ethereal PadZ 2
+description: "Features and download: &#8211; 3 Layers with 111 Pads sounds
+  &#8211; ADSR, Finetuning and Pan control &#8211; 3 Advanced Filters &#8211; 3
+  LFO routing to Cut, Pan, Level and Pitch &#8211; Chorus effect &#8211; Reverb
+  Effect &#8211; Velocity response &#8211; Midi automation Dow…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-ethereal-padz-2/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Ethereal-Padz-2.jpg?resize=300%2C298&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_Ethereal_PadZ_2.zip
+  sha256: 2ed96499293702668860b694bb39d759b464ff2168de8c73c0a3aaa8ae240954
+  size: 88292672
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

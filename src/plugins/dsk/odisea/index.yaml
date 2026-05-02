@@ -1,0 +1,23 @@
+slug: dsk/odisea
+name: DSK Odisea
+description: "&#8211; 2 Osc, 5 waveforms &#8211; Octave select and micro-detuner
+  &#8211; Amp. envelope &#8211; Filter &#8211; easy programming &#8211; Midi
+  automation &#8211; Preset selector Download (adsbygoogle = window.adsbygoogle
+  || []).push({}); Download DSK Odisea (adsbygoogle = windo…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-odisea/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Odisea.jpg?resize=300%2C247&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_Odisea.zip
+  sha256: 61eab554a312af265c39f3fe1ca15b8128ca2b3374caee7ade1ff6e4ed2c14e8
+  size: 1133083
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

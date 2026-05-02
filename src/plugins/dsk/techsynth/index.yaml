@@ -1,0 +1,23 @@
+slug: dsk/techsynth
+name: DSK TechSynth
+description: "&#8211; 2 Osc with 5 waveforms &#8211; Amp. envelope and detune
+  control &#8211; Advanced filter with ADSR and LFO &#8211; Delay filter &#8211;
+  Pitch / poly control &#8211; +60 patches &#8211; Velocity response Download
+  (adsbygoogle = window.adsbygoogle || []).push({}); Downloa…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-techsynth/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-TechSynth.jpg?resize=300%2C213&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_TechSynth.zip
+  sha256: fa1642e9927cf41f7867e7c366ae3cb122a03614b58f4c84d74244e0dc472137
+  size: 8298676
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

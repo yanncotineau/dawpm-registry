@@ -1,0 +1,23 @@
+slug: dsk/world-stringz
+name: DSK World StringZ
+description: "&#8211; 8 world string instruments: Celtic harp, Cumbus, Dobro,
+  Kanun, Koto, Dulcimer, Tar, Turkish oud &#8211; Velocity response &#8211; Amp.
+  envelope and micro-detuner &#8211; HP/LP Filter &#8211; Midi automation
+  Download (adsbygoogle = window.adsbygoogle || []).push({}); Do…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-world-stringz/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-World-StringZ.jpg?resize=300%2C123&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_World_StringZ.zip
+  sha256: 7116bd8a3595f4fd7e795351dcacd2ddb5a291d527b7d07d3d0c54a52873acd0
+  size: 35483295
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

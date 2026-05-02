@@ -1,0 +1,23 @@
+slug: dsk/elektrik-keys
+name: DSK Elektrik Keys
+description: "&#8211; Electric pianos &#8211; 2 layers, 13 waveforms &#8211;
+  Octave select and micro-detuner &#8211; Effects (Delay, flanger) &#8211;
+  Assignable Automation Capability Download (adsbygoogle = window.adsbygoogle ||
+  []).push({}); Download DSK Elektrik Keys (adsbygoogle = window…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-elektrik-keys/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Elektrik-Keys.jpg?resize=300%2C247&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_Elektrik_Keyz.zip
+  sha256: 36702102f310c6e6d35fd0f061d40bc3a9f375a72716695a377712f9a66907d2
+  size: 5841840
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

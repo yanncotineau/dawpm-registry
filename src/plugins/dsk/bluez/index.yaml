@@ -1,0 +1,23 @@
+slug: dsk/bluez
+name: DSK BlueZ
+description: "&#8211; 2 Oscillator with 134 waveforms and wavedraw option
+  &#8211; Sub oscillators &#8211; Advanced filters &#8211; LFO routing to
+  filters &#8211; 2 Fx (delay & chours / flanger) &#8211; Midi automation
+  &#8211; Preset Manager Download (adsbygoogle = window.adsbygoogle || []).…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-bluez/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-BlueZ.jpg?resize=296%2C300&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_Bluez_beta.zip
+  sha256: 0d4d79da2b8adbe6c20840d0f0c02b8c4e5d5963fd6e8ee6ae30346252ea7d2a
+  size: 1628024
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

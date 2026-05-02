@@ -1,0 +1,23 @@
+slug: dsk/akoustik-guitarz
+name: DSK AkoustiK GuitarZ
+description: "&#8211; 4 acoustic guitar type &#8211; Amp. envelope and fine
+  tunning &#8211; Stereo spread and portamento &#8211; 3 Fx (flanger, delay &
+  chorus) &#8211; Velocity response Download (adsbygoogle = window.adsbygoogle
+  || []).push({}); Download DSK AkoustiK GuitarZ (adsbygoogle =…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-akoustik-guitarz/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-AkoustiK-GuitarZ1.jpg?resize=300%2C239&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_AkoustiK_GuitarZ.zip
+  sha256: a73468b27eb696417e05ebdde5ca6f8ad9a7c5c24a593674c619ccfb125a4950
+  size: 4037096
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

@@ -1,0 +1,23 @@
+slug: dsk/saxophonez
+name: DSK SaxophoneZ
+description: "&#8211; 3 saxophone type: Soprano, Alto & Tenor &#8211; Velocity
+  response &#8211; Amp. envelope and micro-detuner &#8211; HP/LP Filter &#8211;
+  2 Fx (reverb & chorus) Download (adsbygoogle = window.adsbygoogle ||
+  []).push({}); Download DSK SaxophoneZ (adsbygoogle = window.adsby…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-saxophonez/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-SaxophoneZ.jpg?resize=300%2C148&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_SaxophoneZ.zip
+  sha256: e920a476805232ef4a2e87ac6bf34398feb514369da43e6a799becb0a5deba02
+  size: 13671729
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

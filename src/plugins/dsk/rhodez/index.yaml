@@ -1,0 +1,23 @@
+slug: dsk/rhodez
+name: DSK RhodeZ
+description: "&#8211; 6 Rhodes piano variations (electric piano) &#8211;
+  Velocity response &#8211; Amp. envelope and micro-detuner &#8211; HP/LP Filter
+  &#8211; 3 Fx (Reverb, Flanger & Chorus) Download (adsbygoogle =
+  window.adsbygoogle || []).push({}); Download DSK RhodeZ (adsbygoogle = wind…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-rhodez/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-RhodeZ.jpg?resize=300%2C150&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_RhodeZ.zip
+  sha256: a8c621074388104873b5948e28449119b817b8d172f22233ce474701b4383dec
+  size: 13760792
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1

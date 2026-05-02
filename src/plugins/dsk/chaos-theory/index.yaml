@@ -1,0 +1,23 @@
+slug: dsk/chaos-theory
+name: DSK Chaos Theory
+description: "&#8211; 2 Oscillator &#8211; LFO &#8211; Multimode Filter Chorus
+  effect &#8211; Chaos button &#8211; Velocity response &#8211; Preset manager
+  Download (adsbygoogle = window.adsbygoogle || []).push({}); Download DSK Chaos
+  Theory (adsbygoogle = window.adsbygoogle || []).push({})…"
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-chaos-theory/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Chaos-Theory.jpg?resize=300%2C168&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - instrument
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_Chaos_Theory.zip
+  sha256: 553f948190b7ad35a518ae15b2b2894902c138942ec7035fa880826992f3f3bc
+  size: 1211552
+install:
+  - format: vst
+    include:
+      - "**/*.dll"
+    strip: 1
