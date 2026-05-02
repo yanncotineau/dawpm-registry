@@ -1,0 +1,15 @@
+slug: dsk/overture
+name: DSK Overture
+description: Free orchestral VSTi with 40 instruments, 1 drum kit, and 10 combinations.
+author: DSK Music
+license: freeware
+homepage: https://www.dskmusic.com/dsk-overture
+tags: [orchestra, instrument, free, vsti]
+download:
+  url: https://www.dskmusic.com/downloads/vsti/DSK_Overture.zip
+  sha256: ea26b7535103f26da5b5c2e013b01e1f5cee3eb12d95b17aa83d49ffa459b480
+  size: 89173598
+install:
+  - format: vst
+    include: ['**/*.dll']
+    strip: 1

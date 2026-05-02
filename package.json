@@ -1,0 +1,17 @@
+{
+  "name": "dawpm-registry-data",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Source-of-truth plugin data for the dawpm registry.",
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "validate": "tsx scripts/build.ts --validate-only"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsx": "^4.19.0",
+    "yaml": "^2.5.1",
+    "zod": "^3.23.8"
+  }
+}
