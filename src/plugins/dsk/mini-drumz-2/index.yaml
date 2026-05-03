@@ -1,9 +1,9 @@
 slug: dsk/mini-drumz-2
 name: DSK mini DRUMZ 2
-description: "Vintage drum machines rompler. version 2 features: &#8211; All
-  sounds fixed and levels corrected &#8211; All sounds mapped in GM Midi
-  standard &#8211; New extra layer to load external kits (sf2) &#8211; Midi
-  channel selector for each layer &#8211; Add amp."
+description: "Vintage drum machines rompler.. version 2 features: – All sounds
+  fixed and levels corrected – All sounds mapped in GM Midi standard – New extra
+  layer to load external kits (sf2) – Midi channel selector for each layer – Add
+  amp."
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-mini-drumz-2/
@@ -11,7 +11,9 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-mini-Dr
 tags:
   - free
   - vsti
-  - instrument
+  - drums
+  - soundfont
+  - rompler
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_mini_DRUMZ_2.zip
   sha256: ef461a9b54c4b75b27bb2e9d8112dbcf7220273b824f353692472d2a9bd83f6a

@@ -1,15 +1,26 @@
 slug: dsk/overture
 name: DSK Overture
-description: Free orchestral VSTi with 40 instruments, 1 drum kit, and 10 combinations.
+description: "Classic orchestra instruments. – 4 layer (40 instruments, 1 drum
+  kit, 10 internal combos): Acoustic Piano, Harpsichord, Church Organ, Celesta,
+  Glockenspiel, Vibes, Harp, Flute, Piccolo, English Horns, Oboe, Clarinet,
+  Bassoon, French Horn…"
 author: DSK Music
 license: freeware
-homepage: https://www.dskmusic.com/dsk-overture
-tags: [orchestra, instrument, free, vsti]
+homepage: https://www.dskmusic.com/dsk-overture/
+image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Overture.jpg?resize=282%2C300&#038;ssl=1
+tags:
+  - free
+  - vsti
+  - keys
+  - drums
+  - guitar
+  - strings
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Overture.zip
   sha256: ea26b7535103f26da5b5c2e013b01e1f5cee3eb12d95b17aa83d49ffa459b480
   size: 89173598
 install:
   - format: vst
-    include: ['**/*.dll']
+    include:
+      - "**/*.dll"
     strip: 1

@@ -1,9 +1,8 @@
 slug: dsk/zeth
 name: DSK ZetH
-description: "&#8211; 3 Oscillators, ADSR &#8211; Octave select and
-  micro-detuner &#8211; 3 AdvancedLFO (multiple outs) &#8211; Advanced Filter
-  &#8211; Effects (Space, delay, flanger) &#8211; Arpeggiator &#8211; Midi
-  automation Download (adsbygoogle = window.adsbygoogle || []).push({}); Dow…"
+description: 3 Oscillators, ADSR – Octave select and micro-detuner – 3
+  AdvancedLFO (multiple outs) – Advanced Filter – Effects (Space, delay,
+  flanger) – Arpeggiator – Midi automation.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-zeth/
@@ -11,7 +10,6 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-ZetH.jp
 tags:
   - free
   - vsti
-  - instrument
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_ZetH.zip
   sha256: 5f41cea59d58244c61f148cb26542acf4a7d8a932193cc5fcaeb7fec2e80b3f0

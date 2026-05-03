@@ -1,9 +1,8 @@
 slug: dsk/kaos
 name: DSK KaoS
-description: "&#8211; 3 Oscillators, ADSR, &#8220;FREE DRAW&#8221; mode &#8211;
-  Octave select and micro-detuner &#8211; 3 aux. oscillators, wafeform control
-  &#8211; 3 LFO &#8211; Effects (Space, delay, flanger) &#8211; 3&#215;0 LFO /
-  OSC matrix Download (adsbygoogle = window.adsbygoogle ||…"
+description: 3 Oscillators, ADSR, “FREE DRAW” mode – Octave select and
+  micro-detuner – 3 aux. oscillators, wafeform control – 3 LFO – Effects (Space,
+  delay, flanger) – 3×0 LFO / OSC matrix.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-kaos/
@@ -11,7 +10,6 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Kaos.jp
 tags:
   - free
   - vsti
-  - instrument
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_KaoS_beta.zip
   sha256: c7d75bae8580290695a0c59330f9aced5d516943d63908b9b41d276a2225dcec

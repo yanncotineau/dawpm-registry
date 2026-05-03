@@ -1,9 +1,8 @@
 slug: dsk/techsynth-pro
 name: DSK TechSynth PRO
-description: "&#8211; 2 Osc with 5 waveforms &#8211; Amp. envelope and detune
-  control &#8211; Advanced filter with ADSR and LFO &#8211; Delay filter &#8211;
-  Pitch / poly control &#8211; +60 patches &#8211; Velocity response &#8211; 32
-  steps sequencer Download (adsbygoogle = window.adsbygoog…"
+description: 2 Osc with 5 waveforms – Amp. envelope and detune control –
+  Advanced filter with ADSR and LFO – Delay filter – Pitch / poly control – +60
+  patches – Velocity response – 32 steps sequencer.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-techsynth-pro/
@@ -11,7 +10,6 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-TechSyn
 tags:
   - free
   - vsti
-  - instrument
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_TechSynth_Pro.zip
   sha256: 1136ca752597405141ae18a43a380529ef70f14211f9a64196f0492e0185b655

@@ -1,9 +1,7 @@
 slug: dsk/bassz
 name: DSK BassZ
-description: "&#8211; 24 bass sound (acoustic & synth) &#8211; Master section
-  (level, pan, fine) &#8211; Amp. envelope &#8211; Velocity response Download
-  (adsbygoogle = window.adsbygoogle || []).push({}); Download DSK BassZ
-  (adsbygoogle = window.adsbygoogle || []).push({}); Share this: Shar…"
+description: 24 bass sound (acoustic & synth) – Master section (level, pan,
+  fine) – Amp. envelope – Velocity response.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-bassz/
@@ -11,7 +9,9 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-BassZ.j
 tags:
   - free
   - vsti
-  - instrument
+  - synth
+  - bass
+  - guitar
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_BassZ.zip
   sha256: f4d500b5c4cb499bdfa275b4f0311ea47704c629c7eb6de45bf088cd480a9755

@@ -1,10 +1,8 @@
 slug: dsk/xxx
 name: DSK xXx
-description: "&#8211; 3 oscillators (octave selector, microdetuner,
-  filter&#8230;) &#8211; 3 LFO (assignable to Pan, pitch, Width, Filter, Pan
-  Filter&#8230;) &#8211; 3 Filters (assignables) Download (adsbygoogle =
-  window.adsbygoogle || []).push({}); Download DSK xXx (adsbygoogle =
-  window.ad…"
+description: 3 oscillators (octave selector, microdetuner, filter…) – 3 LFO
+  (assignable to Pan, pitch, Width, Filter, Pan Filter…) – 3 Filters
+  (assignables).
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-xxx/
@@ -12,7 +10,6 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-xXx.jpg
 tags:
   - free
   - vsti
-  - instrument
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_xXx.zip
   sha256: cd905bb6ca009fdbad372c70ec84291416a4b1164c538263a928fe5a0a4e202f

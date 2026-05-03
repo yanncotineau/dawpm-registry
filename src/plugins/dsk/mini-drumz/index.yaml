@@ -1,7 +1,7 @@
 slug: dsk/mini-drumz
 name: DSK mini DRUMZ
 description: Vintage drum machines rompler. mini DrumZ features the sounds of 20
-  drum machines, including 808, 809 and many more!
+  drum machines, including 808, 809 and many more!.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-mini-drumz/
@@ -9,7 +9,8 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-mini-Dr
 tags:
   - free
   - vsti
-  - instrument
+  - drums
+  - rompler
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_mini_DrumZ.zip
   sha256: 22e90a15c3faa1efaa14c1b78b707e81c16e03123c150a9d0af60582bc7658bb

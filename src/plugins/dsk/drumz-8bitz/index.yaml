@@ -1,9 +1,8 @@
 slug: dsk/drumz-8bitz
 name: DSK DrumZ 8bitZ
-description: 8 bits drums module. &#8211; 8 sound slots (C3 to C4 keys) &#8211;
-  Pitch control for each sample &#8211; Level and pan control &#8211; 6 full
-  kits + extra sounds &#8211; Midi automation &#8211; Velocity response &#8211;
-  Preset selector Download (adsbygoogle = window.adsbygoogl…
+description: 8 bits drums module.. – 8 sound slots (C3 to C4 keys) – Pitch
+  control for each sample – Level and pan control – 6 full kits + extra sounds –
+  Midi automation – Velocity response – Preset selector.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-drumz-8bitz/
@@ -11,7 +10,8 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2014/03/DSK-DrumZ-8
 tags:
   - free
   - vsti
-  - instrument
+  - keys
+  - drums
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_DrumZ_8bitZ.zip
   sha256: 4f0dcd866acd6a6e23e40356f43f66f1efb8d870d967b144b8f0c3515d81e647

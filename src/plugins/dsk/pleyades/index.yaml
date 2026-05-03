@@ -1,9 +1,8 @@
 slug: dsk/pleyades
 name: DSK PleyadeS
-description: "&#8211; 4 Osc with octave and microtunning control &#8211; Octave
-  select and micro-detuner &#8211; Amp. envelope &#8211; 2 Filter &#8211; 3 LFO
-  (witt routing) &#8211; Fx (2 delay) &#8211; Midi automation &#8211; Preset
-  selector Download (adsbygoogle = window.adsbygoogle || [])…"
+description: 4 Osc with octave and microtunning control – Octave select and
+  micro-detuner – Amp. envelope – 2 Filter – 3 LFO (witt routing) – Fx (2 delay)
+  – Midi automation – Preset selector.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-pleyades/
@@ -11,7 +10,7 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Pleyade
 tags:
   - free
   - vsti
-  - instrument
+  - fx
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_PleyadeS.zip
   sha256: ceb91df418aa5447b57ff6dd8e0a72e0fc702b3f3454e423db0403909858389f

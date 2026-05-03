@@ -1,9 +1,9 @@
 slug: dsk/analog-matrix
 name: DSK Analog Matrix
-description: "&#8211; 2 OSC with 6 waveforms &#8211; Amp. Envelope &#8211;
-  Octave & finetunning &#8211; Advanced pulse modulation &#8211; 2 LFO with 6
-  waveforms &#8211; 2 Filter (4 modes) &#8211; Osc 1/2 Balance &#8211; Osc sync
-  &#8211; cVelocity response knob &#8211; OSC & Filter route &#8…"
+description: 2 OSC with 6 waveforms – Amp. Envelope – Octave & finetunning –
+  Advanced pulse modulation – 2 LFO with 6 waveforms – 2 Filter (4 modes) – Osc
+  1/2 Balance – Osc sync – cVelocity response knob – OSC & Filter route – 7×14
+  Matrix panel – 3 E…
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-analog-matrix/
@@ -11,7 +11,7 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Analog-
 tags:
   - free
   - vsti
-  - instrument
+  - synth
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Analog_Matrix.zip
   sha256: 7b87840ae544b9f020df89fb05f5f8c0e0bd94803401fb685173f6f884bcf829

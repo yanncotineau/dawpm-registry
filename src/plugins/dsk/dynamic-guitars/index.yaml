@@ -1,9 +1,9 @@
 slug: dsk/dynamic-guitars
 name: DSK Dynamic Guitars
-description: "Guitars VST instrument &#8211; 3 Guitar types: Acoustic, Nylon &
-  Steel &#8211; ADSR envelove control &#8211; Panorama control &#8211; Voice
-  mode selector &#8211; Amplitude Range control &#8211; Velocity curve selector
-  &#8211; Reverb fx included &#8211; Dynamic velocity respons…"
+description: "Guitars VST instrument. – 3 Guitar types: Acoustic, Nylon & Steel
+  – ADSR envelove control – Panorama control – Voice mode selector – Amplitude
+  Range control – Velocity curve selector – Reverb fx included – Dynamic
+  velocity response – Ava…"
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-dynamic-guitars/
@@ -11,7 +11,9 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2014/11/DSK-Dynamic
 tags:
   - free
   - vsti
-  - instrument
+  - guitar
+  - vocal
+  - fx
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Dynamic_Guitars/DSK_Dynamic_Guitars_64bits.zip
   sha256: 979b7fa8316898013db99c5be3f44274ec358d809d5ebc017dbdcfc4acc9830a

@@ -1,9 +1,8 @@
 slug: dsk/zith
 name: DSK ZitH
-description: "&#8211; 3 Layers (53 waveforms) &#8211; Octave select, ADSR
-  &#8211; 3 Advanced LFO (multiple outs) &#8211; Advanced Filter &#8211; Effects
-  (Space, delay, flanger) &#8211; Arpeggiator &#8211; Assignable Automation
-  Capability Download (adsbygoogle = window.adsbygoogle || []).pus…"
+description: 3 Layers (53 waveforms) – Octave select, ADSR – 3 Advanced LFO
+  (multiple outs) – Advanced Filter – Effects (Space, delay, flanger) –
+  Arpeggiator – Assignable Automation Capability.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-zith/
@@ -11,7 +10,6 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-ZitH.jp
 tags:
   - free
   - vsti
-  - instrument
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_ZitH.zip
   sha256: a79d0ce9543058ff1b5c65253267b5c4c0c3a422c4923ce5ac2abe210b2c1cc4

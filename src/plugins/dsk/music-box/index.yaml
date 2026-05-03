@@ -1,9 +1,6 @@
 slug: dsk/music-box
 name: DSK Music Box
-description: "&#8211; Beautiful old music box sound &#8211; No parameters! Just
-  a little toy 😉 Download (adsbygoogle = window.adsbygoogle || []).push({});
-  Download DSK Music Box (adsbygoogle = window.adsbygoogle || []).push({});
-  Share this: Share on Facebook (Opens in new window) Facebook…"
+description: Beautiful old music box sound – No parameters! Just a little toy 😉.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-music-box/
@@ -11,7 +8,6 @@ image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/06/dsk-music-b
 tags:
   - free
   - vsti
-  - instrument
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Music_Box.zip
   sha256: c30d887ada60a2d34d63ea9ab13e3cc1e42b6f0bab5d90b961b5b6468caa6760

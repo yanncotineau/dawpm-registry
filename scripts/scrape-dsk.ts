@@ -36,15 +36,59 @@ const LISTING_PAGES = [
   'https://www.dskmusic.com/category/vsti-all/page/3/',
 ];
 
-interface CliArgs { limit?: number; only?: string[]; dryRun: boolean }
+interface CliArgs { limit?: number; only?: string[]; dryRun: boolean; force: boolean; metaOnly: boolean }
 
 function parseArgs(argv: string[]): CliArgs {
-  const out: CliArgs = { dryRun: argv.includes('--dry-run') };
+  const out: CliArgs = {
+    dryRun: argv.includes('--dry-run'),
+    force: argv.includes('--force'),
+    metaOnly: argv.includes('--meta-only'),
+  };
   const li = argv.indexOf('--limit');
   if (li !== -1) out.limit = Number(argv[li + 1]);
   const oi = argv.indexOf('--only');
   if (oi !== -1) out.only = argv[oi + 1]?.split(',').map(s => s.trim()).filter(Boolean);
   return out;
+}
+
+/** Decode the HTML entities WordPress sprinkles into post bodies. */
+function decodeEntities(s: string): string {
+  return s
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&hellip;/g, '…')
+    .replace(/&mdash;/g, '—')
+    .replace(/&ndash;/g, '–');
+}
+
+/** Heuristic tags: every plugin gets `free` and `vsti`; the rest is keyword-based. */
+function inferTags(title: string, description: string): string[] {
+  const text = `${title} ${description}`.toLowerCase();
+  const tags = new Set<string>(['free', 'vsti']);
+  const rules: Array<[RegExp, string]> = [
+    [/\b(synth|synthesi[sz]er|oscillator|subtractive|fm|wavetable|analog)\b/, 'synth'],
+    [/\b(piano|grand|rhodes|rhodez|keys?|keyz|keyboard|electric piano|wurlitzer|organ|b3)\b/, 'keys'],
+    [/\b(drum|drumz|kick|snare|808|909|beatbox)\b/, 'drums'],
+    [/\b(bass|bassz|sub-bass)\b/, 'bass'],
+    [/\b(guitar|guitarz|acoustic|nylon|steel)\b/, 'guitar'],
+    [/\b(string|stringz|orchestra|cello|violin)\b/, 'strings'],
+    [/\b(brass|trumpet|trombone|saxophone|saxophonez|sax)\b/, 'brass'],
+    [/\b(pad|padz|atmosphere|ambient|ethereal|texture)\b/, 'pad'],
+    [/\b(choir|choirz|voice|vocal)\b/, 'vocal'],
+    [/\b(soundfont|sf2)\b/, 'soundfont'],
+    [/\b(world|ethnic|indian|asian|sitar|kalimba|harmonica)\b/, 'world'],
+    [/\b(fx|effect|sound effects?|sfx)\b/, 'fx'],
+    [/\b(sampler|sample-based|samples)\b/, 'sampler'],
+    [/\b(rompler)\b/, 'rompler'],
+  ];
+  for (const [re, tag] of rules) if (re.test(text)) tags.add(tag);
+  return [...tags];
 }
 
 async function fetchText(url: string): Promise<string> {
@@ -118,20 +162,40 @@ function parsePluginPage(html: string, url: string): PluginPage | null {
   const endIdx = html.search(/<div\s+id="related-posts"/i);
   const content = startIdx !== -1 && endIdx !== -1 ? html.slice(startIdx, endIdx) : html;
 
-  const text = content
-    .replace(/<\/?(p|br|div|span|strong|em|b|i|h\d)[^>]*>/gi, ' ')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
+  // The actual prose lives in a separate <div id="descripcion"> block. Use that
+  // for the description instead of the whole `content` (which is full of SEO
+  // keyword spam, ad slots, share buttons, etc).
+  const descMatch = content.match(/<div\s+id="descripcion"[^>]*>([\s\S]*?)<\/div>/i);
+  const descSource = descMatch ? descMatch[1] : content;
+
+  // Build a clean text version: strip scripts/styles, then tags, then decode entities.
+  const cleaned = decodeEntities(
+    descSource
+      .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+      .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+      .replace(/<br\s*\/?>/gi, ' ')
+      .replace(/<\/p>/gi, '. ')
+      .replace(/<[^>]+>/g, ' '),
+  )
+    .replace(/\(adsbygoogle[^)]*\)\.push\([^)]*\)/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
-  let description = text;
-  const idx = text.indexOf('Features and download:');
-  if (idx !== -1) description = text.slice(idx + 'Features and download:'.length).trim();
-  // Trim leading list-bullet artifacts and stop at "Download" / image filenames.
-  description = description.replace(/^[\s\-–—\u2013\u2014]+/, '');
-  description = description.split(/(?<=[.!?])\s/).slice(0, 2).join(' ').trim();
-  if (description.length > 280) description = description.slice(0, 277).trim() + '…';
+
+  // Drop the "Features and download:" / "Features:" headings from the start
+  // and any leading dashes/colons.
+  let description = cleaned
+    .replace(/^Features\s+and\s+download:?\s*/i, '')
+    .replace(/^Features:?\s*/i, '')
+    .replace(/^[\s\-–—:.]+/, '');
+
+  // Cut at the first "Download" call-to-action if there's enough content first.
+  const cutoff = description.search(/\bDownload\b/);
+  if (cutoff > 40) description = description.slice(0, cutoff).trim();
+
+  // Take the first 1–2 sentences.
+  const sentences = description.split(/(?<=[.!?])\s+/).filter(s => s.length > 0);
+  description = sentences.slice(0, 2).join(' ').trim();
+  if (description.length > 240) description = description.slice(0, 237).trim() + '…';
   if (!description) description = `${title} — free VST instrument by DSK Music.`;
 
   // Hero image: prefer wp-content uploads, skip banners and icons.
@@ -204,7 +268,13 @@ async function main() {
     if (args.only && !args.only.includes(slug)) continue;
 
     const yamlPath = join(OUT, slug, 'index.yaml');
-    if (await fileExists(yamlPath)) {
+    const existsAlready = await fileExists(yamlPath);
+    if (!args.force && !args.metaOnly && existsAlready) {
+      skipped++;
+      continue;
+    }
+    if (args.metaOnly && !existsAlready) {
+      // nothing to update; skip silently in meta-only mode
       skipped++;
       continue;
     }
@@ -228,29 +298,53 @@ async function main() {
       continue;
     }
 
-    let zipUrl: string;
-    try {
-      process.stdout.write(`  resolving redirect…\n`);
-      zipUrl = await resolveRedirect(page.downloadRedirect);
-    } catch (err) {
-      process.stderr.write(`  ✗ ${slug}: redirect failed — ${(err as Error).message}\n`);
-      failed++;
-      continue;
+    // In --meta-only mode, reuse the existing download block instead of
+    // re-downloading and re-hashing the (potentially huge) zip.
+    let download: { url: string; sha256: string; size: number };
+    if (args.metaOnly) {
+      try {
+        const existing = (await import('yaml')).parse(await readFile(yamlPath, 'utf8'));
+        download = existing.download;
+        if (!download?.url || !download?.sha256 || typeof download.size !== 'number') {
+          throw new Error('existing yaml missing download fields');
+        }
+      } catch (err) {
+        process.stderr.write(`  ✗ ${slug}: cannot reuse existing yaml — ${(err as Error).message}\n`);
+        failed++;
+        continue;
+      }
+      process.stdout.write(`  · reusing existing zip metadata\n`);
+    } else {
+      let zipUrl: string;
+      try {
+        process.stdout.write(`  resolving redirect…\n`);
+        zipUrl = await resolveRedirect(page.downloadRedirect);
+      } catch (err) {
+        process.stderr.write(`  ✗ ${slug}: redirect failed — ${(err as Error).message}\n`);
+        failed++;
+        continue;
+      }
+
+      if (args.dryRun) {
+        process.stdout.write(`  → ${zipUrl}\n`);
+        continue;
+      }
+
+      const zipDest = join('/tmp', `dawpm-scrape-${slug}.zip`);
+      let hash;
+      try {
+        process.stdout.write(`  downloading ${zipUrl}\n`);
+        hash = await downloadAndHash(zipUrl, zipDest);
+      } catch (err) {
+        process.stderr.write(`  ✗ ${slug}: download failed — ${(err as Error).message}\n`);
+        failed++;
+        continue;
+      }
+      download = { url: zipUrl, sha256: hash.sha256, size: hash.size };
     }
 
     if (args.dryRun) {
-      process.stdout.write(`  → ${zipUrl}\n`);
-      continue;
-    }
-
-    const zipDest = join('/tmp', `dawpm-scrape-${slug}.zip`);
-    let hash;
-    try {
-      process.stdout.write(`  downloading ${zipUrl}\n`);
-      hash = await downloadAndHash(zipUrl, zipDest);
-    } catch (err) {
-      process.stderr.write(`  ✗ ${slug}: download failed — ${(err as Error).message}\n`);
-      failed++;
+      process.stdout.write(`  → (dry-run) tags=${inferTags(page.title, page.description).join(',')}\n`);
       continue;
     }
 
@@ -262,12 +356,8 @@ async function main() {
       license: 'freeware',
       homepage: page.url,
       ...(page.image ? { image: page.image } : {}),
-      tags: ['free', 'vsti', 'instrument'],
-      download: {
-        url: zipUrl,
-        sha256: hash.sha256,
-        size: hash.size,
-      },
+      tags: inferTags(page.title, page.description),
+      download,
       install: [
         {
           format: 'vst',
@@ -279,7 +369,7 @@ async function main() {
 
     await mkdir(dirname(yamlPath), { recursive: true });
     await writeFile(yamlPath, yaml);
-    process.stdout.write(`  ✓ wrote ${yamlPath} (${(hash.size / 1024 / 1024).toFixed(1)} MiB)\n`);
+    process.stdout.write(`  ✓ wrote ${yamlPath} (${(download.size / 1024 / 1024).toFixed(1)} MiB)\n`);
     added++;
   }
 
