@@ -1,18 +1,20 @@
 slug: dsk/choirz
 name: DSK ChoirZ
-description: 3 Layers with 32 Choir & Pad sounds – ADSR, Finetuning and Pan
-  control – 3 Advanced Filters – 3 LFO routing to Cut, Pan, Level and Pitch –
-  Chorus effect – Reverb Effect – Velocity response – Midi automation.
+description: 3 Layers with 32 Choir & Pad sounds. ADSR, Finetuning and Pan control. 3 Advanced
+  Filters. 3 LFO routing to Cut, Pan, Level and Pitch. Chorus effect. Reverb Effect. Velocity
+  response. Midi automation.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-choirz/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-ChoirZ.jpg?resize=300%2C300&#038;ssl=1
 tags:
+  - choir
   - free
-  - vsti
-  - pad
-  - vocal
   - fx
+  - pad
+  - synth
+  - vocal
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_ChoirZ.zip
   sha256: b4fb6ce0217a2fb87e198494df736bb0551c9e75bdf0b5d053f5d9ac3950e255

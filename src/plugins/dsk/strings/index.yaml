@@ -1,16 +1,16 @@
 slug: dsk/strings
 name: DSK Strings
-description: "2 layers, 22 waveforms – Octave select and micro-detuner – Effects
-  (Delay, flanger) – Midi automation – Included instruments: Cello, Contrabass,
-  Viola, Violin…."
+description: "2 layers, 22 waveforms. Octave select and micro-detuner. Effects (Delay, flanger).
+  Midi automation. Included instruments: Cello, Contrabass, Viola, Violin."
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-strings/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Strings.jpg?resize=300%2C243&#038;ssl=1
 tags:
   - free
-  - vsti
+  - fx
   - strings
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Strings.zip
   sha256: 2a35a24a60b232e9c0c7d21dc984932b25ce213af409de166ed84b2b55101a78

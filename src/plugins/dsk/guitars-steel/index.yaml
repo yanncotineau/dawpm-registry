@@ -1,14 +1,14 @@
 slug: dsk/guitars-steel
 name: DSK Guitars Steel
-description: High expressive and dynamics sounds – Clean and very simply GUI.
+description: High expressive and dynamics sounds. Clean and very simply GUI.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-guitars-steel/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Guitars-Steel.jpg?resize=300%2C123&#038;ssl=1
 tags:
   - free
-  - vsti
   - guitar
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Guitars_Steel.zip
   sha256: b0894bb329938d8e6b3c2d2e1922445cc9a79157d2715d0c2d3f71ac9154310a

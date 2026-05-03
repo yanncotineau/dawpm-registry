@@ -1,12 +1,13 @@
 slug: dsk/oranze
 name: DSK OranZe
-description: 2 OSC, 135 waveforms* – Phase mod. – Amp.
+description: 2 OSC, 135 waveforms. Phase mod. Amp.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-oranze/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-OranZe.jpg?resize=210%2C300&#038;ssl=1
 tags:
   - free
+  - synth
   - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_OranZe.zip

@@ -1,14 +1,14 @@
 slug: dsk/techsynth
 name: DSK TechSynth
-description: 2 Osc with 5 waveforms – Amp. envelope and detune control –
-  Advanced filter with ADSR and LFO – Delay filter – Pitch / poly control – +60
-  patches – Velocity response.
+description: 2 Osc with 5 waveforms. Amp. envelope and detune control. Advanced filter with ADSR and
+  LFO. Delay filter. Pitch / poly control. +60 patches. Velocity response.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-techsynth/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-TechSynth.jpg?resize=300%2C213&#038;ssl=1
 tags:
   - free
+  - synth
   - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_TechSynth.zip

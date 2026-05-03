@@ -1,13 +1,15 @@
 slug: dsk/b3x
 name: DSK B3x
-description: 2 layers, 13 waveforms – Octave select and micro-detuner – Effects
-  (Delay, flanger) – Assignable Automation Capability.
+description: 2 layers, 13 waveforms. Octave select and micro-detuner. Effects (Delay, flanger).
+  Assignable Automation Capability.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-b3x/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-B3x.jpg?resize=300%2C271&#038;ssl=1
 tags:
   - free
+  - fx
+  - keys
   - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_B3x.zip

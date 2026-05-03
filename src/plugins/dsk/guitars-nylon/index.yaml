@@ -1,14 +1,14 @@
 slug: dsk/guitars-nylon
 name: DSK Guitars Nylon
-description: High expressive and dynamics sounds – Clean and very simply GUI.
+description: High expressive and dynamics sounds. Clean and very simply GUI.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-guitars-nylon/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Guitars-Nylon.jpg?resize=300%2C123&#038;ssl=1
 tags:
   - free
-  - vsti
   - guitar
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Guitars_Nylon.zip
   sha256: 1cfccdc908e8cfa86cc2242b2a72973ac21a1a16bab6c1c1257c1492b3bf69c4

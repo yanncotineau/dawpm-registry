@@ -1,14 +1,15 @@
 slug: dsk/asian-dreamz
 name: DSK Asian DreamZ
-description: 7 Asian Instruments (Pipa, Pipa tremolo, Luan, Guzhen, Erhu, Ban
-  di, Percussion kit) – Velocity response – Amp. envelope and micro-detuner –
-  HP/LP Filter – Midi automation.
+description: 7 Asian Instruments (Pipa, Pipa tremolo, Luan, Guzhen, Erhu, Ban di, Percussion kit).
+  Velocity response. Amp. envelope and micro-detuner. HP/LP Filter. Midi automation.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-asian-dreamz/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Asian-DreamZ.jpg?resize=300%2C124&#038;ssl=1
 tags:
+  - drums
   - free
+  - synth
   - vsti
   - world
 download:

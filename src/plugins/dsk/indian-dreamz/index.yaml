@@ -1,14 +1,14 @@
 slug: dsk/indian-dreamz
 name: DSK Indian DreamZ
-description: "6 Indian Instruments: Sitar, Sarod, veena, Tar, tampura & Tabla –
-  Velocity response – Amp. envelope and micro-detuner – HP/LP Filter – Midi
-  automation."
+description: "6 Indian Instruments: Sitar, Sarod, veena, Tar, tampura & Tabla. Velocity response.
+  Amp. envelope and micro-detuner. HP/LP Filter. Midi automation."
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-indian-dreamz/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Indian-DreamZ.jpg?resize=300%2C126&#038;ssl=1
 tags:
   - free
+  - synth
   - vsti
   - world
 download:

@@ -1,14 +1,14 @@
 slug: dsk/guitars-acoustic
 name: DSK Guitars Acoustic
-description: High expressive and dynamics sounds – Clean and very simply GUI.
+description: High expressive and dynamics sounds. Clean and very simply GUI.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-guitars-acoustic/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Guitars-Acoustic.jpg?resize=300%2C123&#038;ssl=1
 tags:
   - free
-  - vsti
   - guitar
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Guitars_Acoustic.zip
   sha256: 7c3f868ef0095281ca975638c0448db1cb637fb8f99e96e3f5ff642d3356d9f1

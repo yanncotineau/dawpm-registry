@@ -1,15 +1,16 @@
 slug: dsk/harmonica
 name: DSK Harmonica
-description: Mini rompler – 5 variations – Midi automation.
+description: Mini rompler. 5 variations. Midi automation.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-harmonica/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Harmonica.jpg?resize=300%2C104&#038;ssl=1
 tags:
   - free
-  - vsti
-  - world
   - rompler
+  - vsti
+  - woodwind
+  - world
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Harmonica.zip
   sha256: 3dac51e62b896d9c1b21efecde58f12c2a3a4d42ff27c5c56ad601595b77c77b

@@ -1,20 +1,21 @@
 slug: dsk/virtuoso
 name: DSK Virtuoso
-description: "6 Instrument layers, including: Acoustic Piano, Harpsichord,
-  Church Organ, Celesta, Glockenspiel, Vibes, Harp, Flute, Piccolo, English
-  Horns, Oboe, Clarinet, Bassoon, French Horn, Trumpet, Trombone, Tuba, Cello,
-  ContraBass, Viola, Violin…"
+description: "6 Instrument layers, including: Acoustic Piano, Harpsichord, Church Organ, Celesta,
+  Glockenspiel, Vibes, Harp, Flute, Piccolo, English Horns, Oboe, Clarinet, Bassoon, French Horn,
+  Trumpet, Trombone, Tuba, Cello, ContraBass, Viola, Violin."
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-virtuoso/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Virtuoso.jpg?resize=300%2C203&#038;ssl=1
 tags:
-  - free
-  - vsti
-  - keys
-  - guitar
-  - strings
   - brass
+  - free
+  - guitar
+  - keys
+  - piano
+  - strings
+  - vsti
+  - woodwind
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Virtuoso.zip
   sha256: 0a2b67005f9bfdee82f4d80fb2643ef213458c2cfe9b1177d601462f32fb5b05

@@ -1,17 +1,17 @@
 slug: dsk/brass
 name: DSK Brass
-description: "2 layers, 23 instruments including: Sax Soprano, Sax Tenor, Sax
-  Alto, Harmon Mute, Trumpet, Trumpet Cup Mute, Trumpet Staccato, Trumpet Swell,
-  Piccolo Trumpet, Trombone, Trombone Cup Mute, Trombone Wah Mute, Tuba, Tuba
-  Staccato, Flugel H…"
+description: "2 layers, 23 instruments including: Sax Soprano, Sax Tenor, Sax Alto, Harmon Mute,
+  Trumpet, Trumpet Cup Mute, Trumpet Staccato, Trumpet Swell, Piccolo Trumpet, Trombone, Trombone
+  Cup Mute, Trombone Wah Mute, Tuba, Tuba Staccato, Flugel H."
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-brass/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Brass.jpg?resize=300%2C270&#038;ssl=1
 tags:
+  - brass
   - free
   - vsti
-  - brass
+  - woodwind
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Brass.zip
   sha256: d0d7e635d5660ce601bd3fa928f97aa009bdbe54fb286e78033fb7b0468d3ca6

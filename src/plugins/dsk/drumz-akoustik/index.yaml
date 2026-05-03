@@ -1,17 +1,16 @@
 slug: dsk/drumz-akoustik
 name: DSK DrumZ AkoustiK
-description: Acoustic drums module.. – 8 sound slots (C3 to C4 white keys) –
-  Level and pan control – Master amp.
+description: Acoustic drums module. 8 sound slots (C3 to C4 white keys). Level and pan control. Master amp.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-drumz-akoustik/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-DrumZ-AkoustiK.jpg?resize=300%2C222&#038;ssl=1
 tags:
-  - free
-  - vsti
-  - keys
   - drums
+  - free
   - guitar
+  - keys
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_DrumZ_AkoustiK.zip
   sha256: b12d94e80bf89d8d6fded8d55a1477399af3b10565f9496320cc9b250440069a

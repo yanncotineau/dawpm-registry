@@ -1,16 +1,16 @@
 # dawpm-registry
 
-The plugin data behind [dawpm-registry.yanncotineau.dev](https://dawpm-registry.yanncotineau.dev).
+The plugin data behind a `dawpm` registry deployment.
 
 Each plugin is a single yaml file at `src/plugins/<ns>/<name>/index.yaml`. A GitHub Actions workflow validates them, compiles them into a static JSON index under `dist/v1/`, publishes that to GitHub Pages, and pings a Vercel deploy hook so the frontend picks up the changes.
 
 ## Add a plugin
 
 1. Create `src/plugins/<ns>/<name>/index.yaml`. See [`src/plugins/dsk/overture/index.yaml`](src/plugins/dsk/overture/index.yaml) for the canonical example.
-2. `pnpm validate` to check it locally.
+2. Run `pnpm validate` to check it locally.
 3. Open a PR.
 
-The `slug` in the yaml must match the path: `dsk/overture` → `src/plugins/dsk/overture/index.yaml`.
+The `slug` in the yaml must match the path: `dsk/overture` belongs at `src/plugins/dsk/overture/index.yaml`.
 
 ## Schema
 
@@ -40,12 +40,8 @@ install:                      # required, at least one rule
 pnpm install
 pnpm validate     # zod-validate every yaml
 pnpm build        # write dist/v1/plugins.json
-pnpm scrape:dsk   # rescrape every free DSK Music VST — see scripts/scrape-dsk.ts
+pnpm scrape:dsk   # rescrape every free DSK Music VST. See scripts/scrape-dsk.ts
 ```
-
-## Compiled output
-
-Published to `https://yanncotineau.github.io/dawpm-registry/v1/plugins.json` and consumed by the frontend.
 
 ## License
 

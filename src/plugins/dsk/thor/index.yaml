@@ -1,16 +1,16 @@
 slug: dsk/thor
 name: DSK ThoR
-description: 4 Osc, 5 waveforms, ADSR, pan (+ routing) – Octave select and
-  micro-detuner – 4 Filter – 3 advanced LFO (+ routing + 4 user memory slots) –
-  Fx (4 delay) – Midi automation.
+description: 4 Osc, 5 waveforms, ADSR, pan (+ routing). Octave select and micro-detuner. 4 Filter. 3
+  advanced LFO (+ routing + 4 user memory slots). Fx (4 delay). Midi automation.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-thor/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-ThoR-300x276.jpg?resize=300%2C276&#038;ssl=1
 tags:
   - free
-  - vsti
   - fx
+  - synth
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_ThoR.zip
   sha256: d9b401a413c59c349a52ec6adff9199b1838696e16fe948424dab1a3ccb4f89a

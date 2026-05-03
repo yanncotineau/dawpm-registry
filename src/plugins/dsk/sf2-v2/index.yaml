@@ -1,15 +1,16 @@
 slug: dsk/sf2-v2
 name: DSK SF2 &#8211; v2
-description: Free high quality SoundFont player. – Bank and preset selector –
-  Midi channel selector – Note control (Bend, Retrigger) – Amp.
+description: Free high quality SoundFont player. Bank and preset selector. Midi channel selector.
+  Note control (Bend, Retrigger). Amp.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-sf2-v2/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-SF2-v2.jpg?resize=300%2C236&#038;ssl=1
 tags:
   - free
-  - vsti
+  - rompler
   - soundfont
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_SF2_v2.zip
   sha256: 90111d56c4d92a52bbaa425766131aa1e7f9a7828bd0d9ed81f8bd7d58a28099

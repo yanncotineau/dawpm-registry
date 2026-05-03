@@ -1,17 +1,18 @@
 slug: dsk/akoustik-keyz
 name: DSK AkoustiK KeyZ
-description: "3 piano type: Grand Piano, Concert piano P & Concert Piano F –
-  Velocity response – Amp. envelope and micro-detuner – HP/LP Filter – 2 Fx
-  (reverb & flanger)."
+description: "3 piano type: Grand Piano, Concert piano P & Concert Piano F. Velocity response. Amp.
+  envelope and micro-detuner. HP/LP Filter. 2 Fx (reverb & flanger)."
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-akoustik-keyz/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-AkoustiK-KeyZ.jpg?resize=300%2C150&#038;ssl=1
 tags:
   - free
-  - vsti
-  - keys
   - fx
+  - keys
+  - piano
+  - synth
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_AkoustiK_KeyZ.zip
   sha256: 1b4f75c374e5a521d1790e7913a7dcb5621a7a11225a587b4c381fdc5c5fbc00

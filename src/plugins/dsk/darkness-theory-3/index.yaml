@@ -1,17 +1,17 @@
 slug: dsk/darkness-theory-3
 name: DSK Darkness Theory 3
-description: Ambient textures and pads – 3 advanced OSC whit 72 waveforms –
-  octave and pan selector – Amp. envelope and micro-detuner – 3 HP/LP advanced
-  pole Filter – 3 LFO whit output routing – Midi automation – Velocity response
-  – +32 presets.
+description: Ambient textures and pads. 3 advanced OSC with 72 waveforms. octave and pan selector.
+  Amp. envelope and micro-detuner. 3 HP/LP advanced pole Filter. 3 LFO with output routing. Midi
+  automation. Velocity response. +32 presets.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-darkness-theory-3/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Darkness-Theory-3.jpg?resize=300%2C131&#038;ssl=1
 tags:
   - free
-  - vsti
   - pad
+  - synth
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Darkness_Theory_3.zip
   sha256: 6ac0804eeaa643b4189dcb2a7acef573396f3e925ab20e4fe450757758792e17

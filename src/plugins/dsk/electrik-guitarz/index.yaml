@@ -1,16 +1,16 @@
 slug: dsk/electrik-guitarz
 name: DSK Electrik GuitarZ
-description: "10 Electric guitars models – Amp. envelope, finetune & portamento
-  – 5 band equalizer – 4 Effects: Flanger, Delay, Distortion & Chorus – Midi
-  automation – Velocity response."
+description: "10 Electric guitars models. Amp. envelope, finetune & portamento. 5 band equalizer. 4
+  Effects: Flanger, Delay, Distortion & Chorus. Midi automation. Velocity response."
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-electrik-guitarz/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Electrik-GuitarZ.jpg?resize=300%2C153&#038;ssl=1
 tags:
   - free
-  - vsti
+  - fx
   - guitar
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_ElectriK_GuitarZ.zip
   sha256: 97cec5ff2ed8a7499aa7ea3c4c0b436de04c60598c00148ede5b5d9449764c22

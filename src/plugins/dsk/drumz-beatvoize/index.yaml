@@ -1,18 +1,17 @@
 slug: dsk/drumz-beatvoize
 name: DSK DrumZ BeatVoiZe
-description: Human beat box module.. – 8 sound slots (C3 to C4 white keys) –
-  Level and pan control – 8 stereo outs – 26 samples – 3 kits – Midi automation
-  – Preset selector.
+description: Human beat box module. 8 sound slots (C3 to C4 white keys). Level and pan control. 8
+  stereo outs. 26 samples. 3 kits. Midi automation. Preset selector.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-drumz-beatvoize/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-DrumZ-BeatVoiZe.jpg?resize=300%2C228&#038;ssl=1
 tags:
-  - free
-  - vsti
-  - keys
   - drums
+  - free
+  - keys
   - sampler
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_DrumZ_BeatVoiZe.zip
   sha256: 31e6391a27b2b51dbefe46b4b40da941c6b1f7aec11a417e51bd4dc3af5dca26

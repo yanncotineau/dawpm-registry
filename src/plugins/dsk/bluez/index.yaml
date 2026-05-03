@@ -1,17 +1,16 @@
 slug: dsk/bluez
 name: DSK BlueZ
-description: 2 Oscillator with 134 waveforms and wavedraw option – Sub
-  oscillators – Advanced filters – LFO routing to filters – 2 Fx (delay & chours
-  / flanger) – Midi automation – Preset Manager.
+description: 2 Oscillator with 134 waveforms and wavedraw option. Sub oscillators. Advanced filters.
+  LFO routing to filters. 2 Fx (delay & chours / flanger). Midi automation. Preset Manager.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-bluez/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-BlueZ.jpg?resize=296%2C300&#038;ssl=1
 tags:
   - free
-  - vsti
-  - synth
   - fx
+  - synth
+  - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Bluez_beta.zip
   sha256: 0d4d79da2b8adbe6c20840d0f0c02b8c4e5d5963fd6e8ee6ae30346252ea7d2a

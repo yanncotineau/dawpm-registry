@@ -1,13 +1,14 @@
 slug: dsk/odisea
 name: DSK Odisea
-description: 2 Osc, 5 waveforms – Octave select and micro-detuner – Amp.
-  envelope – Filter – easy programming – Midi automation – Preset selector.
+description: 2 Osc, 5 waveforms. Octave select and micro-detuner. Amp. envelope. Filter. easy
+  programming. Midi automation. Preset selector.
 author: DSK Music
 license: freeware
 homepage: https://www.dskmusic.com/dsk-odisea/
 image: https://i0.wp.com/www.dskmusic.com/wp-content/uploads/2012/01/DSK-Odisea.jpg?resize=300%2C247&#038;ssl=1
 tags:
   - free
+  - synth
   - vsti
 download:
   url: https://www.dskmusic.com/downloads/vsti/DSK_Odisea.zip
